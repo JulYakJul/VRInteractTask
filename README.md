@@ -53,8 +53,8 @@
 
 
 - При **release** цвет возвращается к исходному.
-<img src="Screenshots/releasebox.jpg" alt="Изменение цвета при взятии" width="800" />
-<img src="Screenshots/releasesphere.jpg" alt="Изменение цвета при взятии" width="800" />
+<img src="Screenshots/releasebox.jpg" alt="Изменение цвета при отпускании" width="800" />
+<img src="Screenshots/releasesphere.jpg" alt="Изменение цвета при отпускании" width="800" />
 
 - Логика вынесена в отдельный скрипт `GrabbableColorChanger` в `Assets/Scripts/Interaction`.
 
@@ -75,12 +75,12 @@
 1. **Классический режим:**
    - Нажатия на клавиши выполняются лучом.
    - Клавиши - UI‑кнопки, вызывающие `VRKeyboardKey.OnKeyHit()`.
-<img src="Screenshots/ray.jpg" alt="Изменение цвета при взятии" width="800" />
+<img src="Screenshots/ray.jpg" alt="Набор текста лучом" width="800" />
 
 2. **Навигация джойстиком:**
    - Перемещение по клавишам по двум осям с помощью thumbstick.
    - Текущая выбранная клавиша подсвечивается жёлтой рамкой.
-<img src="Screenshots/joystick.jpg" alt="Изменение цвета при взятии" width="800" />
+<img src="Screenshots/joystick.jpg" alt="Набор текста джостиком" width="800" />
 
 ## Архитектура
 
